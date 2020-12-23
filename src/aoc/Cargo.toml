@@ -1,0 +1,9 @@
+[package]
+name = "aoc"
+version = "0.1.0"
+
+[lib]
+path = "lib.rs"
+
+[dependencies.cache]
+path = "cache"

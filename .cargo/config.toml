@@ -1,0 +1,2 @@
+[build]
+rustflags = ["-Ctarget-cpu=native", "-Cprofile-use=C:/Users/joel/Documents/coding/rust/advent_of_code/day13.profdata"]

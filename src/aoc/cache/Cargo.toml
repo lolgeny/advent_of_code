@@ -1,0 +1,17 @@
+[package]
+name = "cache"
+version = "0.1.0"
+authors = ["lolgeny"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+path = "lib.rs"
+
+[dependencies]
+quote = "1.0.7"
+proc-macro2 = "1.0.24"
+
+[dependencies.syn]
+version = "1.0.54"
+features = ["full"]
