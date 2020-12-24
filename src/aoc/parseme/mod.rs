@@ -2,7 +2,6 @@ use std::collections::HashMap;
 use std::iter::Peekable;
 use std::str::Chars;
 
-#[derive()]
 pub enum ParseRule {
     Constant(String, bool),
     Word(String, bool),
